@@ -45,14 +45,13 @@ print("---------------------------")
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 # Create a variable named meal and assign an empty string to it.
 # Use a for loop to iterate over the strings in foods and append each string to meal.
-
+foods=('Double cheese B burger ','Mashwiyat mix ','Little caesars pizza')
 def combine_foods():
     # your code here
-    foods=('Double cheese B burger','Mashwiyat mix','Little caesars pizza')
     meal=""
     for food in foods:
       meal= meal+food+''
-      return meal
+    return meal
     
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
@@ -64,7 +63,8 @@ print("---------------------------")
 
 def slice_foods():
     # your code here
-
+    last_two_foods=foods[-2:]
+    return last_two_foods
 # Call the function and print the result
 print('Exercise 3:', slice_foods())
 print("---------------------------")
@@ -74,21 +74,28 @@ print("---------------------------")
 # Create a dictionary named home_town containing the keys of city, state, and population.
 # Using the home_town dictionary, assign to a variable named home_town_message a string with this format: “I was born in <city>, <state> - population of <population>”
 
-def hometown_info():
-    # your code here
 
-# Call the function and print the result
-print('Exercise 4:', hometown_info())
-print("---------------------------")
 
-# Exercise 5: Iterating Over Dictionary Items
-#
-# Define an empty list named home_town_items.
-# Use a for loop to iterate over the key: value pairs in the home_town dictionary and append a string with the following format to home_town_items: "<key> = <value>"
 
-def list_home_town_items():
-    # your code here
 
-# Call the function and print the result
-print('Exercise 5:', list_home_town_items())
-print("---------------------------")
+# 8999999999999999999999999999999999999999999999999999999999999999
+
+
+# def hometown_info():
+#     # your code here
+
+# # Call the function and print the result
+# print('Exercise 4:', hometown_info())
+# print("---------------------------")
+
+# # Exercise 5: Iterating Over Dictionary Items
+# #
+# # Define an empty list named home_town_items.
+# # Use a for loop to iterate over the key: value pairs in the home_town dictionary and append a string with the following format to home_town_items: "<key> = <value>"
+
+# def list_home_town_items():
+#     # your code here
+
+# # Call the function and print the result
+# print('Exercise 5:', list_home_town_items())
+# print("---------------------------")
