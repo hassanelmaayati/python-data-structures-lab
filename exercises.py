@@ -104,16 +104,14 @@ print("---------------------------")
 def list_home_town_items():
     # your code here
     home_town = {
-        "city": "riffa",
-        "state": "south",
-        "population": "60k",
+        'city': 'riffa',
+        'state': 'south',
+        'population': '60k',
     }
     home_town_items = []
-    
-    for key, value in home_town_items():
-          home_town_items.append(f"{key} = {value}")
+    for key, value in home_town.items():
+        home_town_items.append(f"{key} = {value}")
     return home_town_items
-
 
 # Call the function and print the result
 print("Exercise 5:", list_home_town_items())
