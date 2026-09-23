@@ -48,7 +48,12 @@ print("---------------------------")
 
 def combine_foods():
     # your code here
-
+    foods=('Double cheese B burger','Mashwiyat mix','Little caesars pizza')
+    meal=""
+    for food in foods:
+      meal= meal+food+''
+      return meal
+    
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
 print("---------------------------")
