@@ -8,20 +8,16 @@
 # - The list should contain any three elements of your choice.
 # - Use a loop to print each element.
 
+
 def example_list_function():
-  example_list = ['element1', 'element2', 'element3']
-  for element in example_list:
-      print(element)
+    example_list = ["element1", "element2", "element3"]
+    for element in example_list:
+        print(element)
+
 
 # Call the function and print each element
 example_list_function()
-
-
-
-
-
-
-
+print("---------------------------")
 
 
 # Exercise 1: List and Indexing
@@ -30,18 +26,18 @@ example_list_function()
 # Assign the second student’s name to a variable named first_student.
 # Assign the last student’s name to a variable named last_student.
 
+
 def manage_students():
     # your code here
+    students = ["hassan", "ahmed", "khalil"]
+    first_student = students[1]
+    last_student = students[-1]
+    return f"first student: {first_student}, last student: {last_student}"
+
 
 # Call the function and print the result
-print('Exercise 1:', manage_students())
-
-
-
-
-
-
-
+print("Exercise 1:", manage_students())
+print("---------------------------")
 
 
 # Exercise 2: Loop and String Concatenation
@@ -55,14 +51,7 @@ def combine_foods():
 
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
-
-
-
-
-
-
-
-
+print("---------------------------")
 
 # Exercise 3: Slicing Tuples
 #
@@ -73,14 +62,7 @@ def slice_foods():
 
 # Call the function and print the result
 print('Exercise 3:', slice_foods())
-
-
-
-
-
-
-
-
+print("---------------------------")
 
 # Exercise 4: Dictionaries and String Formatting
 #
@@ -92,14 +74,7 @@ def hometown_info():
 
 # Call the function and print the result
 print('Exercise 4:', hometown_info())
-
-
-
-
-
-
-
-
+print("---------------------------")
 
 # Exercise 5: Iterating Over Dictionary Items
 #
@@ -111,3 +86,4 @@ def list_home_town_items():
 
 # Call the function and print the result
 print('Exercise 5:', list_home_town_items())
+print("---------------------------")
